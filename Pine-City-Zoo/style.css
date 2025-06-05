@@ -1,0 +1,200 @@
+/*====ENTIRE PAGE - THIS IS A BUILT IN HTML TAG LIKE header, h1, etc====*/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/*===STYLE THE HEADER THIS IS AN CLASS/ID WE CREATED===*/
+.header{
+    position: fixed; /*This will be fixed at the top of the page*/
+    top: 0; /*Tell the style sheet where it will be positioned*/
+    left: 0; /*Tell the style sheet where it will be positioned*/
+    z-index: 500;/*Means the header will overlay itself meaning it will be closer to the user*/
+    height: 80px;/*Give it a height*/
+    width: 100%;/*means it will take up the full width of the screen*/
+    background-image: url('images/wood-bg.png');/*this is the background of the page*/
+    background-repeat: repeat-x;/*takes our image and repeats it horizontally until the full width of the screen is achieved*/
+}
+/*===Style the header image which is the logo for the zoo===*/
+.header img{
+    display: block;/*This means we will be able to adjust the width and height of this image*/
+    margin: auto;/*To centralize an object in your screen o this image will be centralized {center}*/
+    height: 70%; /* The image wont be over huge and if you set the height the width will be set automatically*/
+    padding-top: 15px;
+}
+
+/*===STYLE THE TOP TABS===*/
+.tabs-top{
+      position: fixed; /*This will be fixed at the top of the page*/
+      top     : 80px;/*Tell the style sheet where it will be positioned*/
+      left    : 0; /*Tell the style sheet where it will be positioned*/
+      z-index : 500; /*Means it will overlay itself meaning it will be closer to the user*/
+      width   : 100%;/*means it will take up the full width of the screen*/
+      height  : 40px;/*give it a height*/
+      background-color: darkgreen;/*give it a background color*/
+}
+
+.tabs-top a{
+      float: left;
+      display: block;/*This means we will be able to adjust the width and height of the hyperlinks*/
+      width: 33%;
+      height: 35px;
+      font-weight: 700;
+      color: white;/*color of the text*/
+      text-align: center;/*align the text*/
+      text-decoration: none;/*to remove the underlines from the hyperlinks*/
+      padding-top: 12px; /*This will cause the text within the hyperlink button to be vertically aligned*/
+}
+
+/*STYLE THE MAIN CONTENT FEW STYLING REQUIRED HERE*/
+.main-home{
+       margin-top: 120px;/*Leave a space between the top header and tabs bar*/
+}
+
+/*===BOTTOM TABS===*/
+.tabs-bottom{
+      position : fixed;/*Position at the bottom of the screen*/
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: forestgreen;
+}
+
+/*===STYLING FOR THE LINKS AT THE BOTTOM===*/
+.tabs-bottom a{
+     float: left;
+     display: block;
+     width: 50%;/*half of the screen*/
+     height: 35px;
+     font-weight: 700;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     padding-top: 12px;
+}
+/*===STYLING THE MAIN===*/
+.main{
+    margin-top: 119px;
+    background: url('images/map-blur.png');
+    background-repeat: repeat-y;
+}
+
+.content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/*===STYLING THE INFO BOX===*/
+a.info-box{
+      text-decoration : none;
+      background      : rgba(255 ,225, 255, .8);
+      width           : 90%;
+      height          : 90px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 12px;
+      padding         : 1px; 
+}
+
+.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : #131313;
+}
+
+.info-box img.right{
+      float      : right;
+      margin-top : 25px;
+      height:    40px; 
+}
+
+/*== INFO BOX FULL */
+.info-box-full{
+      background-color : rgba(255, 255, 255, .8) ;
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
+}
+
+
+
+.info-box-full img{
+      width : 100%;
+}
+
+
+
+.info-box-full h3{
+      text-align : center;
+}
+
+/*====WEATHER====*/
+
+img.info-box-weather-icon{
+     height : 30px;
+     width  : 30px !important;
+     margin : 10px;
+     float  :left; 
+}
+
+h1.info-box-weather-icon{
+     font-size  : 65px;
+     font-weight: 200;
+     padding    : 0;
+     margin     : 0;
+}
+
+table{
+      width: 100%;
+}
+
+td{
+      border-top: 1px solid #131313;
+}
+
+/*===FORM===*/
+
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
