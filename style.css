@@ -15,6 +15,7 @@ body{
     width: 100%;/*means it will take up the full width of the screen*/
     background-image: url('images/wood-bg.png');/*this is the background of the page*/
     background-repeat: repeat-x;/*takes our image and repeats it horizontally until the full width of the screen is achieved*/
+    background-position:center
 }
 /*===Style the header image which is the logo for the zoo===*/
 .header img{
