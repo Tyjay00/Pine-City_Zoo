@@ -76,6 +76,15 @@ body{
      text-decoration: none;
      padding-top: 12px;
 }
+
+.tabs-bottom p {
+    display: block; /* Ensure it behaves like a block element */
+    width: 50%; /* It will take half the screen width on its own line */
+    height: 35px; /* Match the height of the links */
+    font-weight: 700; /* Match font weight */
+    color: white/* background-color: #4CAF50; /* Example: same as the bar background */
+}
+
 /*===STYLING THE MAIN===*/
 .main{
     margin-top: 119px;
